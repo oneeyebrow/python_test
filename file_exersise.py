@@ -2,4 +2,4 @@
 
 f = open("file_exersise.txt")
 
-f.read
+f.read()
