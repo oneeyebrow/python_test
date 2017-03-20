@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-ip.addr = "192.168.255.255"
+ip = "192.168.255.255"
 
 octets = "ip.addr.split(.)"
 
