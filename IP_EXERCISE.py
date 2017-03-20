@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
-ip = "192.168.255.255"
+ip_addr = raw_input("enter ip address:")
 
-octets = "ip.addr.split(.)"
+octets = ip_addr.split(".")
 
-print"{:<12}".format(octets)
+print "{:<12}{:<12}{:<12}{:<12}".format(*octets)
+
+print
 
