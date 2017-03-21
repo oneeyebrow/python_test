@@ -8,3 +8,5 @@ print "{:<12}{:<12}{:<12}{:<12}".format(*octets)
 
 print
 
+".".join(octets)
+

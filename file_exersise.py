@@ -2,4 +2,6 @@
 
 f = open("file_exersise.txt")
 
-f.read()
+for line in f:
+    print line.strip()
+
